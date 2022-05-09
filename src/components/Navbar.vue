@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <h1>My Vue Router</h1>
+    <h1>VueJS</h1>
     <ul class="nav-link">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/products">Products</router-link></li>

@@ -1,6 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <NavBar />
+  <div class="logo-container">
+    <img alt="Vue logo" src="./assets/logo.png" />
+  </div>
+  <div>
+    <NavBar />
+  </div>
   <router-view />
 </template>
 
@@ -18,5 +22,12 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+</style>
+<style scoped>
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 </style>
